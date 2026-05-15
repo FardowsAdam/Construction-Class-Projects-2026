@@ -9,19 +9,26 @@ This repository is used for organizing all student projects for the Construction
 ### 1. Clone the repository
 ```bash
 git clone <repo-url>
+```
+### 2. Create a branch for your submission
+```bash
+git checkout -b project-name
+```
+### 3. Add your project
 
-2. Create a branch for your submission
-git checkout -b your-name-submission
-3. Add your project
+Create a folder using your project name  and add your project inside it:
+```bash
+/project_name/
+```
 
-Create a folder using your name and add your project inside it:
-
-/your_name_project/
-4. Commit your changes
+### 4. Commit your changes
+```bash
 git add .
-git commit -m "Add my project submission"
-5. Push your branch
-git push origin your-name-submission
-6. Create a Pull Request
+git commit -m "Add my project "
+```
+### 5. Push your branch
+```bash
+git push origin project-name
+```
 
-Go to GitHub and open a Pull Request for review and submission.
+
